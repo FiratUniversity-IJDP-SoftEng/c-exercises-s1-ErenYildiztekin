@@ -3,7 +3,7 @@
 int main() {
     int age;
 
-    printf("Yaşınızı girin: ");
+    printf("Enter your age: ");
     scanf("%d", &age);  
 
     for (int i = 0; i < age; i++) {
