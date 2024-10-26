@@ -4,13 +4,13 @@ int main() {
     int secretNumber = 3;
     int guess;
 
-    printf("1 ile 5 arasında bir sayı tahmin edin: ");
-    scanf("%d", &guess);  // Kullanıcıdan tahmini al
+    printf("Guess a number between 1 and 5: ");
+    scanf("%d", &guess);  
 
     if (guess == secretNumber) {
-        printf("Tebrikler! Doğru tahmin.\n");
+        printf("Congratulations.It is true.\n");
     } else {
-        printf("Maalesef, yanlış tahmin. Doğru cevap %d idi.\n", secretNumber);
+        printf("Unfortunately, wrong guess. correct answer was %d.\n", secretNumber);
     }
     return 0;
 }
